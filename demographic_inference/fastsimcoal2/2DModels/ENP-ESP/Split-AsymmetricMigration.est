@@ -1,0 +1,16 @@
+// Priors and rules file
+[PARAMETERS]
+// #isInt?  #name   #dist.   #min     #max     output
+1 NANC      unif     5e3      2e5      output
+1 NESP      unif     5e3      2e5      output
+1 NENP      unif     5e3      2e5      output
+
+// per-generation migration fractions (recipient i <- donor j)
+0 MIG21     logunif  1e-8     1e-3     output   // ENP <- ESP
+0 MIG12     logunif  1e-8     1e-3     output   // ESP <- ENP
+
+1 TDIV      logunif  5e2      5e4      output   // generations
+
+[COMPLEX PARAMETERS]
+0 RESIZE = NANC/NESP           output
+
