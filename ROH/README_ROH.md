@@ -4,7 +4,7 @@
 # Wed Jan  6 17:32:41 2021
 cd <homedir>/scripts
 
-qsub important_results/Runs_of_homozygosity/step0_combine_bcftools_20210104.sh
+sbatch important_results/Runs_of_homozygosity/step0_combine_bcftools_20210104.sh
 
 qacct -j 6073011
 ```
