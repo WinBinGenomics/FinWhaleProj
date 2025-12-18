@@ -1,0 +1,84 @@
+
+Converting file '/data/shared/snigenda/finwhale_projects/fin_genomics/PopStructure/all70/Blue//JointCalls_all70_filterpass_bialleic_all_LDPruned_maf05_SA_mrF.vcf':
+
+Number of samples in VCF: 70
+Total of genotypes processed: 60082
+Genotypes excluded because they exceeded the amount of missing data allowed: 0
+Genotypes that passed missing data filter but were excluded for being MNPs: 0
+SNPs that passed the filters: 60082
+
+Sample 1 of 70, 'ENPAK19', added to the nucleotide matrix(ces).
+Sample 2 of 70, 'ENPAK20', added to the nucleotide matrix(ces).
+Sample 3 of 70, 'ENPAK21', added to the nucleotide matrix(ces).
+Sample 4 of 70, 'ENPAK22', added to the nucleotide matrix(ces).
+Sample 5 of 70, 'ENPAK23', added to the nucleotide matrix(ces).
+Sample 6 of 70, 'ENPAK24', added to the nucleotide matrix(ces).
+Sample 7 of 70, 'ENPAK25', added to the nucleotide matrix(ces).
+Sample 8 of 70, 'ENPAK26', added to the nucleotide matrix(ces).
+Sample 9 of 70, 'ENPAK27', added to the nucleotide matrix(ces).
+Sample 10 of 70, 'ENPAK28', added to the nucleotide matrix(ces).
+Sample 11 of 70, 'ENPAK29', added to the nucleotide matrix(ces).
+Sample 12 of 70, 'ENPAK30', added to the nucleotide matrix(ces).
+Sample 13 of 70, 'ENPBC16', added to the nucleotide matrix(ces).
+Sample 14 of 70, 'ENPBC17', added to the nucleotide matrix(ces).
+Sample 15 of 70, 'ENPBC18', added to the nucleotide matrix(ces).
+Sample 16 of 70, 'ENPCA01', added to the nucleotide matrix(ces).
+Sample 17 of 70, 'ENPCA02', added to the nucleotide matrix(ces).
+Sample 18 of 70, 'ENPCA03', added to the nucleotide matrix(ces).
+Sample 19 of 70, 'ENPCA04', added to the nucleotide matrix(ces).
+Sample 20 of 70, 'ENPCA05', added to the nucleotide matrix(ces).
+Sample 21 of 70, 'ENPCA06', added to the nucleotide matrix(ces).
+Sample 22 of 70, 'ENPCA07', added to the nucleotide matrix(ces).
+Sample 23 of 70, 'ENPCA08', added to the nucleotide matrix(ces).
+Sample 24 of 70, 'ENPCA09', added to the nucleotide matrix(ces).
+Sample 25 of 70, 'ENPOR10', added to the nucleotide matrix(ces).
+Sample 26 of 70, 'ENPOR11', added to the nucleotide matrix(ces).
+Sample 27 of 70, 'ENPOR12', added to the nucleotide matrix(ces).
+Sample 28 of 70, 'ENPOR13', added to the nucleotide matrix(ces).
+Sample 29 of 70, 'ENPWA14', added to the nucleotide matrix(ces).
+Sample 30 of 70, 'ENPWA15', added to the nucleotide matrix(ces).
+Sample 31 of 70, 'ESPCL01', added to the nucleotide matrix(ces).
+Sample 32 of 70, 'ESPCL02', added to the nucleotide matrix(ces).
+Sample 33 of 70, 'ESPCL03', added to the nucleotide matrix(ces).
+Sample 34 of 70, 'ESPCL04', added to the nucleotide matrix(ces).
+Sample 35 of 70, 'ESPCL05', added to the nucleotide matrix(ces).
+Sample 36 of 70, 'ESPCL06', added to the nucleotide matrix(ces).
+Sample 37 of 70, 'ESPCL07', added to the nucleotide matrix(ces).
+Sample 38 of 70, 'ESPCL08', added to the nucleotide matrix(ces).
+Sample 39 of 70, 'ESPCL09', added to the nucleotide matrix(ces).
+Sample 40 of 70, 'ESPCL10', added to the nucleotide matrix(ces).
+Sample 41 of 70, 'ESPCL11', added to the nucleotide matrix(ces).
+Sample 42 of 70, 'ESPCL12', added to the nucleotide matrix(ces).
+Sample 43 of 70, 'ESPCL13', added to the nucleotide matrix(ces).
+Sample 44 of 70, 'ESPCL14', added to the nucleotide matrix(ces).
+Sample 45 of 70, 'ESPCL15', added to the nucleotide matrix(ces).
+Sample 46 of 70, 'ESPCL16', added to the nucleotide matrix(ces).
+Sample 47 of 70, 'ESPCL17', added to the nucleotide matrix(ces).
+Sample 48 of 70, 'ESPCL18', added to the nucleotide matrix(ces).
+Sample 49 of 70, 'ESPCL19', added to the nucleotide matrix(ces).
+Sample 50 of 70, 'ESPCL20', added to the nucleotide matrix(ces).
+Sample 51 of 70, 'GOC002', added to the nucleotide matrix(ces).
+Sample 52 of 70, 'GOC006', added to the nucleotide matrix(ces).
+Sample 53 of 70, 'GOC010', added to the nucleotide matrix(ces).
+Sample 54 of 70, 'GOC025', added to the nucleotide matrix(ces).
+Sample 55 of 70, 'GOC038', added to the nucleotide matrix(ces).
+Sample 56 of 70, 'GOC050', added to the nucleotide matrix(ces).
+Sample 57 of 70, 'GOC053', added to the nucleotide matrix(ces).
+Sample 58 of 70, 'GOC063', added to the nucleotide matrix(ces).
+Sample 59 of 70, 'GOC068', added to the nucleotide matrix(ces).
+Sample 60 of 70, 'GOC071', added to the nucleotide matrix(ces).
+Sample 61 of 70, 'GOC077', added to the nucleotide matrix(ces).
+Sample 62 of 70, 'GOC080', added to the nucleotide matrix(ces).
+Sample 63 of 70, 'GOC082', added to the nucleotide matrix(ces).
+Sample 64 of 70, 'GOC086', added to the nucleotide matrix(ces).
+Sample 65 of 70, 'GOC091', added to the nucleotide matrix(ces).
+Sample 66 of 70, 'GOC100', added to the nucleotide matrix(ces).
+Sample 67 of 70, 'GOC111', added to the nucleotide matrix(ces).
+Sample 68 of 70, 'GOC112', added to the nucleotide matrix(ces).
+Sample 69 of 70, 'GOC116', added to the nucleotide matrix(ces).
+Sample 70 of 70, 'GOC125', added to the nucleotide matrix(ces).
+
+PHYLIP matrix saved to: JointCalls_all70_filterpass_bialleic_all_LDPruned_maf05_SA_mrF.min4.phy
+
+Done!
+

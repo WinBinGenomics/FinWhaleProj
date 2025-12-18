@@ -1,0 +1,10 @@
+
+Pipeline for bcftools roh pipeline. Author Sergio Nigenda & Kaden Winspear @ CSUSM -> Eastern Pacific Fin Whale project. 
+
+Order of steps. If VCFs are already split by pop begin on step 2. 
+1. newVcf_perPop.sh
+2. roh_bcftools.sh
+3. cat_roh_files.sh
+4. subset_ROH_individuals.sh
+5. bcftools_roh_plot_whales.R
+

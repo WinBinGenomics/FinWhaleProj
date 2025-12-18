@@ -1,0 +1,4 @@
+Job 42051 starting on mem002
+VCF_IN     : /data/shared/snigenda/finwhale_projects/fin_genomics/PopStructure/all70/Blue/DemoPassInds/DemoPassIds_LDPruned_maf05_SNPs.vcf.gz
+SAMPLE_LIST: /data/shared/snigenda/finwhale_projects/scripts/winfingenomics/population_structure/pca_relatedness_fst_admixture/ESP_Admixture/ENP_ESPids.txt
+VCF_OUT    : /data/shared/snigenda/finwhale_projects/fin_genomics/PopStructure/ESP_admixture/LDPruned_maf05_SNPs.ESP_ENP_Only.vcf.gz

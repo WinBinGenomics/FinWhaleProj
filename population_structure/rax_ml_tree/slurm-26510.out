@@ -1,0 +1,113 @@
+Option -T does not have any effect with the sequential or parallel MPI version.
+It is used to specify the number of threads for the Pthreads-based parallelization
+Warning, you specified a working directory via "-w"
+Keep in mind that RAxML only accepts absolute path names, not relative ones!
+
+
+Using BFGS method to optimize GTR rate parameters, to disable this specify "--no-bfgs" 
+
+
+
+This is RAxML version 8.2.12 released by Alexandros Stamatakis on May 2018.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 60080 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 3.75%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 100 inferences on the original alignment using 100 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heterogeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 60080
+Name: No Name Provided
+DataType: DNA
+Substitution Matrix: GTR
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC -s /data/shared/snigenda/finwhale_projects/fin_genomics/PopStructure/all70/Blue/raxml_data/JointCalls_all70_filterpass_bialleic_all_LDPruned_maf05_SA_mrF.min4.phy -n snps_maf05_LDpruned -m GTRGAMMA -p 12345 -T 8 -N 100 -w /data/shared/snigenda/finwhale_projects/fin_genomics/PopStructure/all70/Blue/raxml_data 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.203 0.296 0.300 0.201 
+
+Inference[0]: Time 6662.129417 GAMMA-based likelihood -601378.706985, best rearrangement setting 10
+Inference[1]: Time 5147.460811 GAMMA-based likelihood -601561.188864, best rearrangement setting 5
+Inference[2]: Time 6139.880552 GAMMA-based likelihood -601347.852485, best rearrangement setting 10
+Inference[3]: Time 3056.704030 GAMMA-based likelihood -601497.313711, best rearrangement setting 5
+Inference[4]: Time 5298.965527 GAMMA-based likelihood -601377.899108, best rearrangement setting 5
+Inference[5]: Time 4098.001520 GAMMA-based likelihood -601411.891008, best rearrangement setting 10
+Inference[6]: Time 6853.204463 GAMMA-based likelihood -601404.846872, best rearrangement setting 5
+Inference[7]: Time 2188.110614 GAMMA-based likelihood -601494.768365, best rearrangement setting 5
+Inference[8]: Time 5278.787848 GAMMA-based likelihood -601392.376710, best rearrangement setting 10
+Inference[9]: Time 6574.051386 GAMMA-based likelihood -601338.138266, best rearrangement setting 10
+Inference[10]: Time 4455.985940 GAMMA-based likelihood -601362.771654, best rearrangement setting 10
+Inference[11]: Time 5385.961681 GAMMA-based likelihood -601523.295037, best rearrangement setting 10
+Inference[12]: Time 4447.809841 GAMMA-based likelihood -601326.356529, best rearrangement setting 10
+Inference[13]: Time 8074.899648 GAMMA-based likelihood -601351.628199, best rearrangement setting 5
+Inference[14]: Time 3854.041058 GAMMA-based likelihood -601420.816681, best rearrangement setting 5
+Inference[15]: Time 4023.593477 GAMMA-based likelihood -601473.487387, best rearrangement setting 5
+Inference[16]: Time 6238.994118 GAMMA-based likelihood -601341.461794, best rearrangement setting 5
+Inference[17]: Time 4925.885264 GAMMA-based likelihood -601369.990516, best rearrangement setting 10
+Inference[18]: Time 4741.700275 GAMMA-based likelihood -601319.245516, best rearrangement setting 5
+Inference[19]: Time 3577.590343 GAMMA-based likelihood -601362.804328, best rearrangement setting 10
+Inference[20]: Time 5001.348098 GAMMA-based likelihood -601444.810718, best rearrangement setting 5
+Inference[21]: Time 5629.666637 GAMMA-based likelihood -601360.982468, best rearrangement setting 5
+Inference[22]: Time 4493.176351 GAMMA-based likelihood -601411.184620, best rearrangement setting 5
+Inference[23]: Time 5055.548155 GAMMA-based likelihood -601549.883011, best rearrangement setting 5
+Inference[24]: Time 4045.070391 GAMMA-based likelihood -601429.083234, best rearrangement setting 10
+Inference[25]: Time 3179.674932 GAMMA-based likelihood -601426.819694, best rearrangement setting 10
+Inference[26]: Time 5971.835994 GAMMA-based likelihood -601379.084050, best rearrangement setting 5
+Inference[27]: Time 4483.142511 GAMMA-based likelihood -601401.797835, best rearrangement setting 10
+Inference[28]: Time 6115.092427 GAMMA-based likelihood -601472.204443, best rearrangement setting 10
+Inference[29]: Time 2419.400985 GAMMA-based likelihood -601379.446717, best rearrangement setting 5
+Inference[30]: Time 4407.713533 GAMMA-based likelihood -601368.293663, best rearrangement setting 10
+Inference[31]: Time 3616.614026 GAMMA-based likelihood -601416.728156, best rearrangement setting 10
+Inference[32]: Time 3233.295659 GAMMA-based likelihood -601412.274627, best rearrangement setting 10
+Inference[33]: Time 3221.388717 GAMMA-based likelihood -601428.504016, best rearrangement setting 5
+Inference[34]: Time 4536.846160 GAMMA-based likelihood -601395.520303, best rearrangement setting 10
+Inference[35]: Time 4043.454739 GAMMA-based likelihood -601416.877890, best rearrangement setting 5
+Inference[36]: Time 5834.643878 GAMMA-based likelihood -601394.557723, best rearrangement setting 5
+Inference[37]: Time 3525.869557 GAMMA-based likelihood -601479.952534, best rearrangement setting 5
+Inference[38]: Time 5634.520956 GAMMA-based likelihood -601361.396627, best rearrangement setting 10
+Inference[39]: Time 7728.796915 GAMMA-based likelihood -601418.174336, best rearrangement setting 5
+Inference[40]: Time 3556.764763 GAMMA-based likelihood -601328.149185, best rearrangement setting 10
+Inference[41]: Time 3640.257564 GAMMA-based likelihood -601432.417411, best rearrangement setting 5
+Inference[42]: Time 4801.322469 GAMMA-based likelihood -601418.739514, best rearrangement setting 10
+Inference[43]: Time 5093.051613 GAMMA-based likelihood -601453.115129, best rearrangement setting 5
+Inference[44]: Time 3986.074511 GAMMA-based likelihood -601355.634946, best rearrangement setting 5
+Inference[45]: Time 3976.063737 GAMMA-based likelihood -601469.957445, best rearrangement setting 5
+Inference[46]: Time 7700.423216 GAMMA-based likelihood -601326.462500, best rearrangement setting 10
+Inference[47]: Time 3018.467433 GAMMA-based likelihood -601301.125814, best rearrangement setting 5
+Inference[48]: Time 5321.374604 GAMMA-based likelihood -601337.747495, best rearrangement setting 10
+Inference[49]: Time 5227.882259 GAMMA-based likelihood -601293.558155, best rearrangement setting 10
+Inference[50]: Time 4316.620995 GAMMA-based likelihood -601437.354280, best rearrangement setting 5
+Inference[51]: Time 5728.134557 GAMMA-based likelihood -601392.646793, best rearrangement setting 5
+Inference[52]: Time 4938.149157 GAMMA-based likelihood -601429.135657, best rearrangement setting 10
+Inference[53]: Time 4171.729809 GAMMA-based likelihood -601363.395880, best rearrangement setting 5
+slurmstepd: error: *** JOB 26510 ON cpu001 CANCELLED AT 2025-04-10T17:39:11 DUE TO TIME LIMIT ***
