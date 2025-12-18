@@ -1,0 +1,19 @@
+// Priors and rules file
+// *********************
+[PARAMETERS]
+//#isInt?  #name    #dist.  #min    #max
+// all N are in number of haploid individuals
+1 NCUR     unif     0     1000   output    // free (set your preferred range)
+1 NBOT     unif     10   20000    output    // fixed to 23,000 (size between 11 and 4500 gens)
+1 TBOT     unif     3       3        output    // fixed: most recent bottleneck at 3 gens
+1 TENDBOT  unif     11      11       output    // fixed: earlier bottleneck at 11 gens
+1 NREC     unif     100     3000    output    // size during the 3–11 gen epoch (free)
+1 NANC     unif     1000    40000    output    // fixed ancestral size
+1 TANCBOT  unif     1000    10000     output    // fixed: change to NANC at 4500 gens
+
+[RULES]
+
+[COMPLEX PARAMETERS]
+0 RESBOT     = NREC/NCUR     // at 3 gens, set size to NREC
+0 RESENDBOT  = NBOT/NREC     // at 11 gens, set size to NBOT (23,000)
+0 RESANCBOT  = NANC/NBOT     // at 4500 gens, set size to NANC (15,770)

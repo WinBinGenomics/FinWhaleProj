@@ -1,0 +1,46 @@
+// Priors and rules file for Model A (desired):
+// Past → Present narrative: NANC → NREC (expansion) → NBOT (older bottleneck) → NCUR (recent bottleneck)
+// Present → Past events (what fastsimcoal2 uses): 
+//   0–TBOT: NCUR
+//   at TBOT (=3): size → NBOT         (older bottleneck window starts at 3 gens)
+//   at TENDBOT (=11): size → NREC     (expansion window starts at 11 gens)
+//   at TANCBOT (=4500): size → NANC   (ancestral size)
+
+// *********************
+// [PARAMETERS]
+// *********************
+// #isInt?   #name     #dist.   #min     #max       #output?
+// All N are in haploid individuals
+
+[PARAMETERS]
+1           NCUR      unif     0        1000       output      // recent bottleneck (present-day size)
+1           NBOT      unif     10       20000      output      // older bottleneck size (3–11 gens)
+1           TBOT      unif     3        3          output      // fixed: most recent change at 3 gens (NCUR → NBOT)
+1           TENDBOT   unif     11       11         output      // fixed: older change at 11 gens (NBOT → NREC)
+1           NREC      unif     100      3000       output      // expansion size (11 → TANCBOT)
+1           NANC      unif     1000     40000      output      // ancestral size (≥ TANCBOT)
+1           TANCBOT   unif     4500     4500       output      // fixed: change to NANC at 4500 gens
+
+// *********************
+// [RULES]
+// *********************
+// Enforce chronological order of events and sensible size relationships.
+
+[RULES]
+TBOT < TENDBOT
+TENDBOT < TANCBOT
+
+// Optional biological priors to reflect intended shape:
+// Expansion larger than both bottlenecks; older bottleneck not smaller than present.
+NREC > NBOT
+NBOT >= NCUR
+
+// *********************
+// [COMPLEX PARAMETERS]
+// *********************
+// Ratios for interpretation/diagnostics (all output)
+
+[COMPLEX PARAMETERS]
+0           RESBOT      = NREC/NCUR     output    // expansion vs today
+0           RESENDBOT   = NBOT/NREC     output    // bottleneck severity vs expansion
+0           RESANCBOT   = NANC/NBOT     output    // ancestral vs older bottleneck

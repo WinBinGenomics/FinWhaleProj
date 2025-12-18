@@ -1,0 +1,29 @@
+// Priors and rules file
+// *********************
+
+[PARAMETERS]
+// #isInt?  #name     #dist. #min  #max      #notes
+// All N are haploid counts; times are in generations since present
+1          NCUR      unif   10     1000     output
+1          NBOT      unif   10     300     output
+1          NANC      unif   100    30000     output
+
+// Bottleneck start: ~16,000 years ago @ 25.9 y/gen → ~618 generations
+// Give it a sensible window around 618 (tighten/loosen as you like)
+1          TBOT      unif   590    650       output
+
+// Recovery begins very recently: 2–10 generations ago
+1          TENDBOT   unif   2      10        output
+
+[RULES]
+// Bottleneck must start earlier than it ends
+TBOT > TENDBOT
+
+// Optional bottleneck shape constraints (uncomment if desired)
+NBOT < NANC
+NBOT < NCUR
+
+[COMPLEX PARAMETERS]
+0          RESBOT     = NBOT/NCUR       output
+0          RESENDBOT  = NANC/NBOT       output
+0          DURATION   = TBOT - TENDBOT  output
