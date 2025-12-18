@@ -1,0 +1,5 @@
+Steps to genome stats 
+
+1) Countsites.py and Wrapper
+2) Calculate heterozygosity w/ Calc_genomeheterozygosity.R
+3) Box Plot + MWU test  

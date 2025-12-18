@@ -1,0 +1,6 @@
+This directory contains two subdirectories.
+
+* The genomewide_diversity folder contains scripts that are used to calculate genomewide diversity estimates. It further containts a script to plot
+the results and conducts a MWU test between the population estimates.
+
+* The pixy folder contains the scripts that were used to calculate genomewide diversity / fst / dxy values. Further it has scripts needed to visualize the results. 
